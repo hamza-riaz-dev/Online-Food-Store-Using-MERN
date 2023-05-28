@@ -1,24 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './views/Home';
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom";
+import UserLogin from './views/UserLogin';
+import SignUp from './views/SignUp';
+import { CartProvider } from './components/ContextReducer';
+import OrderHistory from './views/OrderHistory';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <CartProvider>
+      <BrowserRouter>
+        <div>
+          <Routes>
+            <Route exact path='/' element={<Home />} />
+            <Route exact path='/userlogin' element={<UserLogin />} />
+            <Route exact path='/createuser' element={<SignUp />} />
+            <Route exact path='/orderhistory' element={<OrderHistory />} />
+          </Routes>
+        </div>
+      </BrowserRouter>
+    </CartProvider>
   );
 }
 
