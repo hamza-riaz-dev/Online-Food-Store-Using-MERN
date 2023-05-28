@@ -1,102 +1,78 @@
-import React, { useState, useEffect } from 'react'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
+import React, { useState, useEffect } from 'react';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 export default function OrderHistory() {
-
-    const [orderData, setOrderData] = useState({})
-
-    const fetchOrderHistory = async () => {
-        console.log(localStorage.getItem('userEmail'))
-        await fetch("http://localhost:5000/api/myOrderData", {
-            // credentials: 'include',
-            // Origin:"http://localhost:3000/login",
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({
-                email: localStorage.getItem('userEmail')
-            })
-        }).then(async (res) => {
-            let response = await res.json()
-            await setOrderData(response)
-        })
-
-
-
-        // await res.map((data)=>{
-        //    console.log(data)
-        // })
-
-
-    }
+    const [orderData, setOrderData] = useState({});
 
     useEffect(() => {
-        fetchOrderHistory()
-    }, [])
+        const fetchOrderHistory = async () => {
+            console.log(localStorage.getItem('userEmail'));
+            await fetch('http://localhost:5000/api/myOrderData', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    email: localStorage.getItem('userEmail'),
+                }),
+            })
+                .then(async (res) => {
+                    let response = await res.json();
+                    console.log(response);
+                    setOrderData(response.orderData);
+                })
+                .catch((error) => {
+                    console.error('Error fetching order history:', error);
+                });
+        };
 
-
+        fetchOrderHistory();
+    }, []);
 
     return (
         <>
-            <div>
-                <Navbar />
-            </div>
+            <Navbar />
 
             <div className='container'>
                 <div className='row'>
-
-                    {orderData !== {} ? Array(orderData).map(data => {
-                        return (
-                            data.orderData ?
-                                data.orderData.order_data.slice(0).reverse().map((item) => {
-                                    return (
-                                        item.map((arrayData) => {
-                                            return (
-                                                <div  >
-                                                    {arrayData.Order_date ? <div className='m-auto mt-5'>
-
-                                                        {data = arrayData.Order_date}
-                                                        <hr />
-                                                    </div> :
-
-                                                        <div className='col-12 col-md-6 col-lg-3' >
-                                                            <div className="card mt-3" style={{ width: "18rem", maxHeight: "500px" }}>
-                                                                <img src={arrayData.img} className="card-img-top" alt="..." style={{ height: "200px", objectFit: "fill" }} />
-                                                                <div className="card-body">
-                                                                    <h5 className="card-title">{arrayData.name}</h5>
-                                                                    <div className='container w-100 p-0' style={{ height: "38px" }}>
-                                                                        <span className='m-1'>{arrayData.qty}</span>
-                                                                        <span className='m-1'>{arrayData.size}</span>
-                                                                        <span className='m-1'>{data}</span>
-                                                                        <div className=' d-inline ms-2 h-100 w-20 fs-5' >
-                                                                            ₹{arrayData.price}/-
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-
-                                                        </div>
-
-
-
-                                                    }
-
+                    {orderData && Object.keys(orderData).length !== 0 ? (
+                        Array.isArray(orderData.order_data) && orderData.order_data.length !== 0 ? (
+                            orderData.order_data
+                                .slice(0)
+                                .reverse()
+                                .map((order) => (
+                                    <div key={order[0].order_date}>
+                                        <div className='m-auto mt-5'>
+                                            {order[0].order_date}
+                                            <hr />
+                                        </div>
+                                        {order.slice(1).map((item) => (
+                                            <div className='col-12 col-md-6 col-lg-3' key={item.id}>
+                                                <div className='card m-3' style={{ "width": '18rem', "maxHeight": '500px' }}>
+                                                    <img src={item.img} className='card-img-top' alt='...' style={{ height: '200px', objectFit: 'fill' }} />
+                                                    <div className='card-body'>
+                                                        <h5 className='card-title'>{item.name}</h5>
+                                                        <div className='m-1'>Date: {order[0].order_date}</div>
+                                                        <span className='m-1'>Qty: {item.qty}</span>
+                                                        <span className='m-1'>size: {item.size}</span>
+                                                        <div className=' m-1 fs-5'>Rs. {item.price}</div>
+                                                    </div>
                                                 </div>
-                                            )
-                                        })
-
-                                    )
-                                }) : ""
+                                            </div>
+                                        ))}
+                                    </div>
+                                ))
+                        ) : (
+                            <div key='no-order-history'>No order history available.</div>
                         )
-                    }) : ""}
+                    ) : (
+                        <div>Loading order history...</div>
+                    )}
                 </div>
             </div>
 
-            <div>
-                <Footer />
-            </div>
+            <Footer />
         </>
-    )
+    );
 }

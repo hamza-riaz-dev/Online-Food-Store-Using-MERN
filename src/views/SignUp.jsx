@@ -1,8 +1,12 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 export default function SignUp() {
     const [credentials, setCredentials] = useState({ name: "", email: "", password: "", address: "" })
+
+    let navigate = useNavigate();
 
     const submitToBackend = async (e) => {
         e.preventDefault();
@@ -16,8 +20,11 @@ export default function SignUp() {
         const json = await response.json();
         console.log(json);
 
-        if(!json.success){
+        if (!json.success) {
             alert("Enter Valid Credentials");
+        }
+        if (json.success) {
+            navigate("/userlogin");
         }
     }
     const onChange = (event) => {
@@ -26,6 +33,7 @@ export default function SignUp() {
 
     return (
         <>
+            <Navbar />
             <div className='container'>
                 <form onSubmit={submitToBackend}>
                     <div className="form-group mt-5">
@@ -50,6 +58,7 @@ export default function SignUp() {
 
                 </form>
             </div>
+            <Footer />
         </>
     )
 }

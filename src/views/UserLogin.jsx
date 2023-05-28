@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 export default function UserLogin() {
 
@@ -35,6 +37,7 @@ export default function UserLogin() {
 
   return (
     <>
+      <Navbar />
       <div className='container'>
         <form onSubmit={submitToBackend}>
           <div className="form-group mt-5">
@@ -48,9 +51,9 @@ export default function UserLogin() {
 
           <button type="submit" className="btn btn-dark mt-3">Sign in</button>
           <Link to="/createuser" className='btn btn-outline-dark mt-3 ms-3'>Create a new account</Link>
-
         </form>
       </div>
+      <Footer />
     </>
   )
 }

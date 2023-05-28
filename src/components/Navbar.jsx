@@ -19,7 +19,7 @@ export default function Navbar() {
 
   return (
     <div>
-      <nav className="navbar navbar-dark navbar-expand-lg bg-dark">
+      <nav className="navbar navbar-dark bg-dark navbar-expand-lg" >
         <div className="container-fluid">
           <Link className="navbar-brand fs-3 fst-italic" to="/">MHD Food Store</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

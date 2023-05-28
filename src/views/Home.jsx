@@ -95,7 +95,7 @@ export default function Home() {
               <hr />
               {prodItem !== [] ? prodItem.filter((item) => (item.CategoryName === categories.CategoryName) && (item.name.toLowerCase().includes(search.toLocaleLowerCase()))).map(sortedCatItems => {
                 return (
-                  <div key={sortedCatItems._id} className='col-12 col-md-6 col-lg-3'>
+                  <div key={sortedCatItems._id} className='col-12 col-md-6 col-lg-4 col-xxl-3'>
                     <Card
                       prodItem={sortedCatItems}>
                     </Card>
