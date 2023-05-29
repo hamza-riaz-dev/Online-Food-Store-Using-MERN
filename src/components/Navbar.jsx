@@ -41,6 +41,9 @@ export default function Navbar() {
               </div>
               :
               <div className='navbar-nav ms-auto'>
+
+                <button className='btn btn-outline-light position-relative mx-2' onClick={() => { setCartView(true) }}>Wish list</button>
+
                 <button className='btn btn-outline-light position-relative mx-3' onClick={() => { setCartView(true) }}>
                   My Cart
                   {data.length === 0 ? "" :

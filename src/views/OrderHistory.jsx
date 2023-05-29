@@ -64,10 +64,10 @@ export default function OrderHistory() {
                                     </div>
                                 ))
                         ) : (
-                            <div key='no-order-history'>No order history available.</div>
-                        )
+                            <div>Loading order history...</div>
+                            )
                     ) : (
-                        <div>Loading order history...</div>
+                        <div key='no-order-history' className='fs-5 mt-5 mx-auto'>No order history available.</div>
                     )}
                 </div>
             </div>

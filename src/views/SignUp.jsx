@@ -39,14 +39,17 @@ export default function SignUp() {
                     <div className="form-group mt-5">
                         <label htmlFor="formGroupExampleInput">Name</label>
                         <input type="text" name="name" value={credentials.name} className="form-control" id="formGroupExampleInput" placeholder="Enter your name" onChange={onChange} />
+                        <div id="emailHelp" class="form-text">Please enter a name of minimum 5 characters.</div>
                     </div>
                     <div className="form-group mt-3">
                         <label htmlFor="exampleInputEmail1">Email address</label>
                         <input type="email" name="email" value={credentials.email} className="form-control" id="exampleInputEmail1" placeholder="Enter email" onChange={onChange} />
+                        <div id="emailHelp" class="form-text">Please enter a valid email address.</div>
                     </div>
                     <div className="form-group mt-3">
                         <label htmlFor="exampleInputPassword1">Password</label>
                         <input type="password" name="password" value={credentials.password} className="form-control" id="exampleInputPassword1" placeholder="Password" onChange={onChange} />
+                        <div id="emailHelp" class="form-text">Please enter a password of minimum 5 characters.</div>
                     </div>
                     <div className="form-group mt-3">
                         <label htmlFor="inputAddress">Address</label>
