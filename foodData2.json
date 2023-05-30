@@ -1,0 +1,372 @@
+[
+    {
+        "CategoryName": "Fresh Produce",
+        "name": "Potatoes",
+        "img": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "priceS": "65",
+        "priceL": "130",
+        "unitS": "half kg",
+        "unitL": "one kg",
+        "description": "Our fresh potatoes are sourced from organic farms."
+    },
+    {
+        "CategoryName": "Fresh Produce",
+        "name": "Tomatoes",
+        "img": "https://images.unsplash.com/photo-1561136594-7f68413baa99?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+        "priceS": "55",
+        "priceL": "110",
+        "unitS": "half kg",
+        "unitL": "one kg",
+        "description": "Our fresh tomatoes are sourced from organic farms."
+    },
+    {
+        "CategoryName": "Fresh Produce",
+        "name": "Onions",
+        "img": "https://images.unsplash.com/photo-1508747703725-719777637510?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
+        "priceS": "100",
+        "priceL": "200",
+        "unitS": "half kg",
+        "unitL": "one kg",
+        "description": "Our fresh onions are sourced from organic farms."
+    },
+    {
+        "CategoryName": "Fresh Produce",
+        "name": "Garlic",
+        "img": "https://images.unsplash.com/photo-1540148426945-6cf22a6b2383?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "priceS": "150",
+        "priceL": "300",
+        "unitS": "half kg",
+        "unitL": "one kg",
+        "description": "Our fresh garlic is sourced from organic farms."
+    },
+    {
+        "CategoryName": "Fresh Produce",
+        "name": "Ginger",
+        "img": "https://images.unsplash.com/photo-1603431777782-912e3b76f60d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+        "priceS": "90",
+        "priceL": "180",
+        "unitS": "half kg",
+        "unitL": "one kg",
+        "description": "Our fresh ginger is sourced from organic farms."
+    },
+    {
+        "CategoryName": "Fresh Produce",
+        "name": "Capsicum",
+        "img": "https://images.unsplash.com/photo-1518736114810-3f3bedfec66a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+        "priceS": "75",
+        "priceL": "150",
+        "unitS": "half kg",
+        "unitL": "one kg",
+        "description": "Our fresh capsicum is sourced from organic farms."
+    },
+    {
+        "CategoryName": "Fresh Produce",
+        "name": "Cabbage",
+        "img": "https://images.unsplash.com/photo-1591586007768-40725cc562a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1820&q=80",
+        "priceS": "55",
+        "priceL": "110",
+        "unitS": "half kg",
+        "unitL": "one kg",
+        "description": "Our fresh cabbages are sourced from organic farms."
+    },
+    {
+        "CategoryName": "Fresh Produce",
+        "name": "Cauliflower",
+        "img": "https://images.unsplash.com/photo-1568584711075-3d021a7c3ca3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80",
+        "priceS": "75",
+        "priceL": "150",
+        "unitS": "half kg",
+        "unitL": "one kg",
+        "description": "Our fresh cauliflower is sourced from organic farms."
+    },
+    {
+        "CategoryName": "Fresh Produce",
+        "name": "Eggplant",
+        "img": "https://images.unsplash.com/photo-1604321272882-07c73743be32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+        "priceS": "60",
+        "priceL": "115",
+        "unitS": "half kg",
+        "unitL": "one kg",
+        "description": "Our fresh eggplant is sourced from organic farms."
+    },
+    {
+        "CategoryName": "Fresh Produce",
+        "name": "Cucumber",
+        "img": "https://images.unsplash.com/photo-1449300079323-02e209d9d3a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
+        "priceS": "65",
+        "priceL": "125",
+        "unitS": "half kg",
+        "unitL": "one kg",
+        "description": "Our fresh cucumbers are sourced from organic farms."
+    },
+    {
+        "CategoryName": "Fresh Produce",
+        "name": "Carrots",
+        "img": "https://images.unsplash.com/photo-1601493700750-58796129ebb5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+        "priceS": "70",
+        "priceL": "135",
+        "unitS": "half kg",
+        "unitL": "one kg",
+        "description": "Our fresh carrots are sourced from organic farms."
+    },
+    {
+        "CategoryName": "Fresh Produce",
+        "name": "Spinach",
+        "img": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80",
+        "priceS": "70",
+        "priceL": "105",
+        "unitS": "half kg",
+        "unitL": "one kg",
+        "description": "Our fresh spinach is sourced from organic farms."
+    },
+    {
+        "CategoryName": "Fresh Produce",
+        "name": "Apples",
+        "img": "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+        "priceS": "80",
+        "priceL": "155",
+        "unitS": "half kg",
+        "unitL": "one kg",
+        "description": "Our fresh apples are sourced from organic farms."
+    },
+    {
+        "CategoryName": "Fresh Produce",
+        "name": "Bananas",
+        "img": "https://images.unsplash.com/photo-1543218024-57a70143c369?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80",
+        "priceS": "70",
+        "priceL": "140",
+        "unitS": "half dozen",
+        "unitL": "one dozen",
+        "description": "Our fresh bananas are sourced from organic farms."
+    },
+    {
+        "CategoryName": "Fresh Produce",
+        "name": "Orange",
+        "img": "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80",
+        "priceS": "70",
+        "priceL": "140",
+        "unitS": "half kg",
+        "unitL": "one kg",
+        "description": "Our fresh oranges are sourced from organic farms."
+    },
+    {
+        "CategoryName": "Fresh Produce",
+        "name": "Lemon",
+        "img": "https://images.unsplash.com/photo-1590502593747-42a996133562?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80",
+        "priceS": "80",
+        "priceL": "160",
+        "unitS": "half kg",
+        "unitL": "one kg",
+        "description": "Our fresh lemons are sourced from organic farms."
+    },
+    {
+        "CategoryName": "Fresh Produce",
+        "name": "Mangoes",
+        "img": "https://images.unsplash.com/photo-1629637272678-9b0d5a41b1e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80",
+        "priceS": "90",
+        "priceL": "180",
+        "unitS": "half kg",
+        "unitL": "one kg",
+        "description": "Our fresh Mangoes are sourced from organic farms."
+    },
+    {
+        "CategoryName": "Fresh Produce",
+        "name": "Strawberries",
+        "img": "https://images.unsplash.com/photo-1623227866882-c005c26dfe41?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=465&q=80",
+        "priceS": "110",
+        "priceL": "220",
+        "unitS": "half kg",
+        "unitL": "one kg",
+        "description": "Our fresh strawberries are sourced from organic farms."
+    },
+    {
+        "CategoryName": "Fresh Produce",
+        "name": "Grapes",
+        "img": "https://plus.unsplash.com/premium_photo-1667051580508-d6ff0bdde642?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
+        "priceS": "105",
+        "priceL": "210",
+        "unitS": "half kg",
+        "unitL": "one kg",
+        "description": "Our fresh grapes are sourced from organic farms."
+    },
+    {
+        "CategoryName": "Fresh Produce",
+        "name": "Pomegranate",
+        "img": "https://images.unsplash.com/photo-1553499944-5472133459bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1373&q=80",
+        "priceS": "95",
+        "priceL": "190",
+        "unitS": "half kg",
+        "unitL": "one kg",
+        "description": "Our fresh pomegranates are sourced from organic farms."
+    },
+    {
+        "CategoryName": "Baked items",
+        "name": "Sliced Bread",
+        "img": "https://images.unsplash.com/photo-1592029780368-c1fff15bcfd5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80",
+        "priceS": "110",
+        "priceL": "200",
+        "unitS": "small pack",
+        "unitL": "large pack",
+        "description": "Our baked items are freshly made at our bakery."
+    },
+    {
+        "CategoryName": "Baked items",
+        "name": "Fresh Buns",
+        "img": "https://images.unsplash.com/photo-1569305015955-4851372afb7b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1101&q=80",
+        "priceS": "90",
+        "priceL": "170",
+        "unitS": "small pack",
+        "unitL": "large pack",
+        "description": "Our baked items are freshly made at our bakery."
+    },
+    {
+        "CategoryName": "Baked items",
+        "name": "Muffins",
+        "img": "https://images.unsplash.com/photo-1585665187093-a3511c2fe57a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=976&q=80",
+        "priceS": "120",
+        "priceL": "240",
+        "unitS": "small pack",
+        "unitL": "large pack",
+        "description": "Our baked items are freshly made at our bakery."
+    },
+    {
+        "CategoryName": "Baked items",
+        "name": "Vanilla Cake",
+        "img": "https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1050&q=80",
+        "priceS": "400",
+        "priceL": "750",
+        "unitS": "small",
+        "unitL": "large",
+        "description": "Our baked items are freshly made at our bakery."
+    },
+    {
+        "CategoryName": "Baked items",
+        "name": "Chocolate Cake",
+        "img": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1089&q=80",
+        "priceS": "400",
+        "priceL": "750",
+        "unitS": "small",
+        "unitL": "large",
+        "description": "Our baked items are freshly made at our bakery."
+    },
+    {
+        "CategoryName": "Baked items",
+        "name": "Doughnuts",
+        "img": "https://images.unsplash.com/photo-1543876604-b8ac0e7ded00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+        "priceS": "180",
+        "priceL": "350",
+        "unitS": "small pack",
+        "unitL": "large pack",
+        "description": "Our baked items are freshly made at our bakery."
+    },
+    {
+        "CategoryName": "Baked items",
+        "name": "Cookies",
+        "img": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=465&q=80",
+        "priceS": "200",
+        "priceL": "400",
+        "unitS": "small pack",
+        "unitL": "large pack",
+        "description": "Our baked items are freshly made at our bakery."
+    },
+    {
+        "CategoryName": "Baked items",
+        "name": "Pastries",
+        "img": "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+        "priceS": "600",
+        "priceL": "300",
+        "unitS": "small pack",
+        "unitL": "large pack",
+        "description": "Our baked items are freshly made at our bakery."
+    },
+    {
+        "CategoryName": "Pantry items",
+        "name": "Flour",
+        "img": "https://images.unsplash.com/photo-1610725664285-7c57e6eeac3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+        "priceS": "65",
+        "priceL": "130",
+        "unitS": "half kg",
+        "unitL": "one kg",
+        "description": "Restock your kitchen with our high quality pantry items."
+    },
+    {
+        "CategoryName": "Pantry items",
+        "name": "Rice",
+        "img": "https://images.unsplash.com/photo-1586201375761-83865001e31c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+        "priceS": "115",
+        "priceL": "230",
+        "unitS": "half kg",
+        "unitL": "one kg",
+        "description": "Restock your kitchen with our high quality pantry items."
+    },
+    {
+        "CategoryName": "Pantry items",
+        "name": "Cooking Oil",
+        "img": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=418&q=80",
+        "priceS": "175",
+        "priceL": "350",
+        "unitS": "half litre",
+        "unitL": "one litre",
+        "description": "Restock your kitchen with our high quality pantry items."
+    },
+    {
+        "CategoryName": "Pantry items",
+        "name": "Salt",
+        "img": "https://images.unsplash.com/photo-1630501439385-a55dada3f46b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+        "priceS": "35",
+        "priceL": "70",
+        "unitS": "half kg",
+        "unitL": "one kg",
+        "description": "Restock your kitchen with our high quality pantry items."
+    },
+    {
+        "CategoryName": "Pantry items",
+        "name": "Black Pepper",
+        "img": "https://plus.unsplash.com/premium_photo-1668446314011-301c7a98b6a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+        "priceS": "65",
+        "priceL": "130",
+        "unitS": "half kg",
+        "unitL": "one kg",
+        "description": "Restock your kitchen with our high quality pantry items."
+    },
+    {
+        "CategoryName": "Pantry items",
+        "name": "Red Chilli Powder",
+        "img": "https://images.unsplash.com/photo-1607672632458-9eb56696346b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1257&q=80",
+        "priceS": "55",
+        "priceL": "110",
+        "unitS": "half kg",
+        "unitL": "one kg",
+        "description": "Restock your kitchen with our high quality pantry items."
+    },
+    {
+        "CategoryName": "Pantry items",
+        "name": "Vinegar",
+        "img": "https://images.unsplash.com/photo-1610276329975-fbaa313c9d0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=407&q=80",
+        "priceS": "110",
+        "priceL": "220",
+        "unitS": "half litre",
+        "unitL": "one litre",
+        "description": "Restock your kitchen with our high quality pantry items."
+    },
+    {
+        "CategoryName": "Pantry items",
+        "name": "Oats",
+        "img": "https://images.unsplash.com/photo-1598048851887-0263d4f43e73?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1156&q=80",
+        "priceS": "175",
+        "priceL": "360",
+        "unitS": "half kg",
+        "unitL": "one kg",
+        "description": "Restock your kitchen with our high quality pantry items."
+    },
+    {
+        "CategoryName": "Pantry items",
+        "name": "Baked Beans",
+        "img": "https://images.unsplash.com/photo-1613758235402-745466bb7efe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+        "priceS": "125",
+        "priceL": "250",
+        "unitS": "half kg",
+        "unitL": "one kg",
+        "description": "Restock your kitchen with our high quality pantry items."
+    }
+]
