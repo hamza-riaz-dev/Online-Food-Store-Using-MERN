@@ -1,14 +1,14 @@
 import './App.css';
 import Home from './views/Home';
+import UserLogin from './views/UserLogin';
+import SignUp from './views/SignUp';
+import { CartProvider } from './components/ContextReducer';
+import OrderHistory from './views/OrderHistory';
 import {
   BrowserRouter,
   Routes,
   Route
 } from "react-router-dom";
-import UserLogin from './views/UserLogin';
-import SignUp from './views/SignUp';
-import { CartProvider } from './components/ContextReducer';
-import OrderHistory from './views/OrderHistory';
 
 function App() {
   return (

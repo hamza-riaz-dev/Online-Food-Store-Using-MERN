@@ -27,6 +27,7 @@ export default function SignUp() {
             navigate("/userlogin");
         }
     }
+    
     const onChange = (event) => {
         setCredentials({ ...credentials, [event.target.name]: event.target.value })
     }

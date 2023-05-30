@@ -55,7 +55,7 @@ export default function Cart() {
                             <td>{item.name}</td>
                             <td>{item.qty}</td>
                             <td>{item.size}</td>
-                            <td>{item.price}</td>
+                            <td>Rs. {item.price}</td>
                             <td>
                                 <button
                                     type="button"

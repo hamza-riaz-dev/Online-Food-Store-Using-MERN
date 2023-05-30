@@ -21,7 +21,7 @@ export default function Navbar() {
     <div>
       <nav className="navbar navbar-dark bg-dark navbar-expand-lg" >
         <div className="container-fluid">
-          <Link className="navbar-brand fs-3 fst-italic" to="/">MHD Food Store</Link>
+          <Link className="navbar-brand fs-3 fst-italic" to="/">AAA Food Store</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -33,23 +33,19 @@ export default function Navbar() {
               <div className="navbar-nav">
                 <Link className="nav-link ms-3" aria-current="page" to="/orderhistory">Order History</Link>
               </div> : ""}
-            {(!localStorage.getItem("authToken")) ?
 
+            {(!localStorage.getItem("authToken")) ?
               <div className='navbar-nav ms-auto'>
                 <Link className="btn btn-outline-light mx-2" to="/userlogin">Login</Link>
                 <Link className="btn btn-outline-light mx-2" to="/createuser">Sign up</Link>
               </div>
               :
-              <div className='navbar-nav ms-auto'>
-
-                <button className='btn btn-outline-light position-relative mx-2' onClick={() => { setCartView(true) }}>Wish list</button>
-
+              <div className='navbar-nav ms-auto'>   
                 <button className='btn btn-outline-light position-relative mx-3' onClick={() => { setCartView(true) }}>
                   My Cart
                   {data.length === 0 ? "" :
                     <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                       {data.length}
-                      <span className="visually-hidden">unread messages</span>
                     </span>}
                 </button>
 

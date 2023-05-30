@@ -50,7 +50,7 @@ export default function OrderHistory() {
                                         {order.slice(1).map((item) => (
                                             <div className='col-12 col-md-6 col-lg-3' key={item.id}>
                                                 <div className='card m-3' style={{ "width": '18rem', "maxHeight": '500px' }}>
-                                                    <img src={item.img} className='card-img-top' alt='...' style={{ height: '200px', objectFit: 'fill' }} />
+                                                    {/* <img src={item.img} className='card-img-top' alt='...' style={{ height: '200px', objectFit: 'fill' }} /> */}
                                                     <div className='card-body'>
                                                         <h5 className='card-title'>{item.name}</h5>
                                                         <div className='m-1'>Date: {order[0].order_date}</div>
