@@ -53,7 +53,7 @@ export default function Card(props) {
 
   return (
     <>
-      <div className="card m-3" style={{ width: '18rem', maxHeight: '500px' }}>
+      <div className="card m-3" style={{ width: '19rem', maxHeight: '500px' }}>
         <img
           src={props.prodItem.img}
           className="card-img-top"
